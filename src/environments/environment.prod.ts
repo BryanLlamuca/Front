@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
-  URL: 'https://sistemaventasepe.somee.com/api/'
+  URL: 'https://www.sistemaventasepe.somee.com/api/'
   
+
 };

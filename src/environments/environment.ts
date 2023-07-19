@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  URL: 'https://sistemaventasepe.somee.com/api/'
+  URL: 'https://www.sistemaventasepe.somee.com/api/'
 };
