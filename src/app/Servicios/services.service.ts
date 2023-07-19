@@ -61,7 +61,7 @@ export class ServicesService {
    }
 
    Login(user: DataCliente){
-    return this._http.post(this.URL + 'Login/' + user.cedula + '&' + user.contraseña, null, {observe: 'response'})
+    return this._http.post(this.URL + 'Login/' + user.cedula + '&' + user.contraseña, null, {observe: 'response', withCredentials: true })
    }
 
   
